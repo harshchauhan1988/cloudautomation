@@ -4,8 +4,8 @@ import boto3
 from botocore.exceptions import ClientError
 
 AWS_EMAIL_REGION = 'us-east-1'            # SES isn't available in all regions
-EMAIL_FROM = 'versa-aws@versa-networks.com'  # Use a verified SES email address
-EMAIL_TO = 'versa-aws@versa-networks.com'
+EMAIL_FROM = 'test@gmail.com'  # Use a verified SES email address
+EMAIL_TO = 'test@gmail.com'
 MAX_AGE = 30
 
 iam = boto3.client('iam')
